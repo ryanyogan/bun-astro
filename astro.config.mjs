@@ -9,9 +9,6 @@ export default defineConfig({
   integrations: [mdx(), sitemap()],
   output: "hybrid",
   adapter: vercel({
-    imageService: true,
-    webAnalytics: {
-      enabled: true,
-    },
+    analytics: true,
   }),
 });
