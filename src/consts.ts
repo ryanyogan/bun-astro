@@ -3,4 +3,4 @@
 
 export const SITE_TITLE = "Ryan Yogan";
 export const SITE_DESCRIPTION =
-  "Software engineer and engineering leader with over 15 years of experience.";
+  "Engineering Leader, Developer, Writer, Aviation Nerd, and Educator.";
