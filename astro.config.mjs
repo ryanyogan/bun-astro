@@ -8,5 +8,10 @@ export default defineConfig({
   site: "https://ryanyogan.com",
   integrations: [mdx(), sitemap()],
   output: "hybrid",
-  adapter: vercel(),
+  adapter: vercel({
+    imageService: true,
+    webAnalytics: {
+      enabled: true,
+    },
+  }),
 });
