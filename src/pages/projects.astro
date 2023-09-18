@@ -1,0 +1,39 @@
+---
+import { ViewTransitions } from "astro:transitions";
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <ViewTransitions />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main class="container">
+      <h3>Come back in a bit?</h3>
+
+      <p>
+        You came here on the day (this is hard coded, today is Monday the 18th,
+        it cooled off across the U.S. today) I chose to switch from Next to
+        Astro for my personal site.
+      </p>
+
+      <p>
+        I am still deciding if I want this to be Astro, or create a fun Island
+        and put an interractive React component in here...
+      </p>
+
+      <p>
+        Oh this time, I will link the Github source code to each project. There
+        are over 20 I created in the past 3 months, can you tell I really want
+        to be an IC again?!
+      </p>
+    </main>
+    <Footer />
+  </body>
+</html>
