@@ -1,12 +1,11 @@
 {
-  "name": "bun-astro",
-  "version": "0.0.1",
+  "name": "ryanyogan.com",
+  "version": "0.1.0",
   "dependencies": {
     "@astrojs/mdx": "^1.0.3",
     "@astrojs/rss": "^3.0.0",
     "@astrojs/sitemap": "^3.0.0",
     "@astrojs/vercel": "^4.0.5",
-    "@prisma/client": "^5.2.0",
     "astro": "^3.0.12"
   },
   "scripts": {
