@@ -4,9 +4,8 @@ import { defineConfig } from "astro/config";
 
 import vercel from "@astrojs/vercel/serverless";
 
-// https://astro.build/config
 export default defineConfig({
-  site: "https://example.com",
+  site: "https://ryanyogan.com",
   integrations: [mdx(), sitemap()],
   output: "hybrid",
   adapter: vercel(),
