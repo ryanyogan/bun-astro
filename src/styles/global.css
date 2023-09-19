@@ -29,6 +29,7 @@
 	font-style: normal;
 	font-display: swap;
 }
+
 body {
 	font-family: 'Atkinson', sans-serif;
 	margin: 0;
@@ -42,6 +43,7 @@ body {
 	font-size: 20px;
 	line-height: 1.7;
 }
+
 main {
 	width: 720px;
 	max-width: calc(100% - 2em);
@@ -151,4 +153,8 @@ hr {
 	clip-path: inset(50%);
 	/* added line to stop words getting smushed together (as they go onto seperate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
+}
+
+.container {
+	margin-top: 10px;
 }
